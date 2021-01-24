@@ -15,6 +15,30 @@
 </head>
 
 <body>
-	
+	<div dat-role='page' id='main'>
+		<div data-role='header' data-position='fixed'>
+			<h1>모바일 페이지 헤더</h1>
+		</div>	
+		<div data-role='content'>
+			<h2>모바일페이지 컨텐츠 영역입니다.</h2>
+			<a href="#sub" data-transition='slide'>서브페이지로 이동</a>
+		</div>
+		<div data-role='footer' data-position='fixed'>
+			<h3>모바일 페이지 푸터</h3>
+		</div>
+	</div>
+
+	<div dat-role='page' id='sub'>
+		<div data-role='header' data-position='fixed'>
+			<h1>모바일 페이지 헤더</h1>
+		</div>	
+		<div data-role='content'>
+			<h2>모바일페이지 컨텐츠 영역입니다.</h2>
+			<a href="#main" data-transition='flip'>메인 페이지로 이동</a>
+		</div>
+		<div data-role='footer' data-position='fixed'>
+			<h3>모바일 페이지 푸터</h3>
+		</div>
+	</div>
 </body>
 </html>
